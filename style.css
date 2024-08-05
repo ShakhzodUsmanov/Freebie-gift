@@ -1,0 +1,104 @@
+:root {
+  --primary: #f7941e;
+  --grey-bg: #f1f1f2;
+  --black-bg: #231f20;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 13px 20px;
+}
+
+.btn-outline {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 13px 20px;
+  background-color: transparent;
+}
+
+.navbar {
+  padding: 50px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container .logo img {
+  width: 100%;
+}
+
+.navbar .container .logo img {
+  width: 100%;
+}
+
+.navbar .container .nav-links {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.header {
+  background-color: var(--grey-bg);
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header-grid .box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-grid .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 100px;
+}
+
+.header-grid .text-box button{
+  padding: 20px 30px;
+  margin-top: 50px;
+}
+
+.text-box-main-title {
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.text-box-title {
+  font-size: 32px;
+}
+
+.text-box-paragraph {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 141%;
+}
